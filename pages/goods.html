@@ -4,38 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Семестровая работа</title>
+    <link rel="stylesheet" href="../style/styles.css">
  </head>
  <body>
-    <div id="header">Хэдер</div>
-    <div id="menu">
-        <ul>
-            <li><a href="../index.html">Главная</a></li>
-            <li><a href="news.html">Новости</a></li>
-            <li><a href="practices.html">Практики</a></li>
-            <li><a href="goods.html">Товары</a></li>
-            <li><a href="contacts.html">Контакты</a></li>
-        </ul>
-    </div>
-
-
-        <div>
-            <img src="../images/good1.jpg" alt="Носки пиво" width="200" height="150">
-            <h3>Носки пиво</h3>
-            <div>89 990 ₽</div>
+    <div class="page-container">
+        <div class="header">Хэдер</div>
+        <div class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a class="nav-link" href="../index.html">Главная</a></li>
+                <li class="nav-item"><a class="nav-link" href="news.html">Новости</a></li>
+                <li class="nav-item"><a class="nav-link" href="practices.html">Практики</a></li>
+                <li class="nav-item"><a class="nav-link" href="goods.html">Товары</a></li>
+                <li class="nav-item"><a class="nav-link" href="contacts.html">Контакты</a></li>
+            </ul>
         </div>
-        
-        <div>
-            <img src="../images/good2.jpg" alt="Дозатор для жидкого мыла" width="200" height="150">
-            <h3 >Дозатор для жидкого мыла</h3>
-            <div>2 963 ₽</div>
-        </div>
-        
-        <div>
-            <img src="../images/good3.jpg" alt="Заколка чипсинка" width="200" height="150">
-            <h3>Заколка чипсинка</h3>
-            <div>133 ₽</div>
+        <h3 class="section-title">Наши товары</h3>
+        <div class="goods-container">
+            <div class="goods-tag">
+                <img src="../images/good1.jpg" alt="Носки пиво" width="200" height="150">
+                <h3 class="goods-title">Носки пиво</h3>
+                <div class="goods-price">89 990 ₽</div>
+            </div>
+            
+            <div class="goods-tag">
+                <img src="../images/good2.jpg" alt="Дозатор для жидкого мыла" width="200" height="150">
+                <h3 class="goods-title">Дозатор для жидкого мыла</h3>
+                <div class="goods-price">2 963 ₽</div>
+            </div>
+            
+            <div class="goods-tag">
+                <img src="../images/good3.jpg" alt="Заколка чипсинка" width="200" height="150">
+                <h3 class="goods-title">Заколка чипсинка</h3>
+                <div class="goods-price">133 ₽</div>
+            </div>
         </div>
 
-    <div id="footer">Футер</div>
+    <div class="footer">Футер</div>
  </body>
 </html>
