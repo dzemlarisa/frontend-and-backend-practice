@@ -201,9 +201,12 @@ main.content {
 /* ИЗМЕНЕНИЕ: Добавили CSS Grid для новостей */
 .news-grid {
  display: grid;
- grid-template-columns: repeat(auto-fit, minmax(1000px, 1fr));
+ grid-template-columns: 1fr;
  gap: 15px;
  margin: 20px 0;
+ max-width: 1000px;
+ margin-left: auto;
+ margin-right: auto;
 }
 .news-section {
 margin-top: 50px;
@@ -212,11 +215,13 @@ margin-left: 50px;
 .news-card {
  background: white; /* Белый фон карточки */
  padding: 25px; /* Внутренние отступы */
- margin: 20px 100px; /* Вертикальные отступы */
+ margin: 20px 0px; /* Вертикальные отступы */
  border-radius: 12px; /* Скругленные углы */
  box-shadow: 0 5px 20px rgba(0,0,0,0.08); /* Легкая тень */
  border-left: 4px solid #409e59; /* Синяя полоса слева */
  transition: transform 0.3s ease; /* Плавная анимация трансформации */
+ width: 100%;
+ box-sizing: border-box;
  }
  .news-title {
  font-size: 20px; /* Размер шрифта заголовка опыта */
